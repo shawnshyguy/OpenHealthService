@@ -1,0 +1,29 @@
+# This is a demo plugin. I intend for it to be usable as a template for any other plugins.
+# The general syntax goes as follows:
+
+About:
+  Name: Demo Plugin
+  Version: 1.0
+  Creator: Shawn
+  URL: https://github.com/shawnshyguy/OpenHealthService
+  Desc: A demonstration of how templates should be formatted.
+
+# As long as the above is formatted as so, the remaining configuration file is completely up to you.
+# For the sake of completeness, I've added a small snippet of what you might see in a typical plugin.yml
+
+UserInfo:
+  Name:
+  DOB:
+  Height:
+  Weight:
+
+# Some data, especially more sensitive or personal data, may be more appropriate in an SQL database instead.
+
+# Structurally, here's what you would expect from a typical plugin:
+# OHS/
+# ├ config/
+# │ └ demoplugin.db
+# └ plugins/
+#   └ demoplugin/
+#     ├ plugin.yml
+#     └ plugin.py
